@@ -1,0 +1,46 @@
+\documentclass{beamer}
+% theme général du diaporama
+\usetheme{Boadilla}
+%paquets pour le français
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\subtitle{TODO}
+\title{5G: En marche vers une revolution?}
+\institute[Paris 8]{Paris VIII}
+\author{Chaolei CAI}
+%modifie le fond de la presentation
+\setbeamercolor{background canvas}{bg = white}
+%\setbeamercovered{transparent}
+%\usecolortheme[named=gray]{structure}
+
+
+\begin{document}
+    \frame{\titlepage}
+    \tableofcontents
+
+    \begin{frame}[fragile]%ajouter [fragile] pour afficher du verbatim
+        \frametitle{BOO}
+        \framesubtitle{foo}
+        Ceci n'est pas une pipe.
+        \begin{verbatim}
+            Ceci n'est pas une pipe.
+        \end{verbatim}
+            Ceci n'est \texttt{pas une pipe}
+    \end{frame}
+
+    \begin{frame}
+        \begin{block}{Block name}
+            Ceci est un block;
+        \end{block}
+        \begin{alertblock}{Block name}
+            Ceci est un alertblock;
+        \end{alertblock}
+        \begin{exampleblock}{Block name}
+            Ceci est un exampleblock;
+        \end{exampleblock}
+
+    \end{frame}
+
+
+\end{document}
