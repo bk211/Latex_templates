@@ -1,0 +1,6 @@
+UserManual.pdf:		UserManual.tex
+	pdflatex $<
+	pdflatex $<
+
+clean:
+	rm -f *.aux *.log *.out *.nav *.snm *.toc *.vrb
