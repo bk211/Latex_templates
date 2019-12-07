@@ -1,4 +1,4 @@
-presentation.pdf:		presentation.tex
+main.pdf:		main.tex
 	pdflatex $<
 
 clean:
