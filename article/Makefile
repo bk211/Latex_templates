@@ -1,4 +1,4 @@
-UserManual.pdf:		UserManual.tex
+article.pdf:		article.tex
 	pdflatex $<
 	pdflatex $<
 
